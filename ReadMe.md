@@ -86,7 +86,7 @@ LightGBM: boosting_type, learning_rate, num_leaves
 
 ## საბოლოო მოდელის შერჩევის დასაბუთება
 
-Validation AUC-ის მიხედვით საუკეთესო შედეგი აჩვენა LightGBM მოდელმა.
+Validation AUC-ის მიხედვით საუკეთესო შედეგი აჩვენა XGBoost მოდელმა.
 
 ## MLflow Tracking
 
@@ -96,12 +96,14 @@ Validation AUC-ის მიხედვით საუკეთესო შ�
 
 # MLflow ექსპერიმენტების ბმული
 
+https://dagshub.com/lkata22/IEEE-CIS-Fraud-Detection.mlflow/#/experiments/0?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D
+
 # საუკეთესო მოდელის შედეგები (ვალიდაციაზე)
 
 XGBoost	- 0.96091
 
 RandomForest - 0.86915
 
-Logistic Regression	- 
+Logistic Regression	- 0.65577
 
-LightGBM - 
+LightGBM - 0.95622
